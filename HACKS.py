@@ -4,10 +4,9 @@ import random
 # Portfolio Section
 def show_portfolio():
     st.title("My Portfolio")
-    st.write("This is a sample portfolio section.")
-    st.write("You can add any creative content here, like images, project descriptions, skills, etc.")
-    st.image("https://via.placeholder.com/150", caption="Portfolio Image", use_column_width=True)
-
+    st.write("I am Kavin from 1st year CSE")
+    st.write("I am passionate in doing coding and 3d modelling,which entertains me everyday...")
+    st.image("https://media.istockphoto.com/id/537331500/photo/programming-code-abstract-technology-background-of-software-deve.webp?s=2048x2048&w=is&k=20&c=QmU65ppziekU7cl_KNWyMCteKvhhSYueIqEBlQWvid0=", caption="Portfolio Image", use_container_width=True)
 # Guessing Game Section
 def guessing_game():
     st.title("Guessing Game")
